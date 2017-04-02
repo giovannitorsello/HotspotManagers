@@ -1,0 +1,15 @@
+{
+  "WIFITicketSystem": {
+    "host": "5.83.124.98",
+    "port": "3306",
+    "database": "WIFITicketSystem",
+    "username": "wifinetcom",
+    "password": "wifinetcom2017",
+    "name": "WIFITicketSystem",
+    "connector": "mysql"
+  },
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  }
+}

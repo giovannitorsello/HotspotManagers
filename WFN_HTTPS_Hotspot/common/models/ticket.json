@@ -1,0 +1,66 @@
+{
+  "name": "ticket",
+  "plural": "tickets",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "TICKET"
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "login": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "durataingiorni": {
+      "type": "number",
+      "required": true
+    },
+    "profile": {
+      "type": "string",
+      "required": true
+    },
+    "note": {
+      "type": "string",
+      "required": true
+    },
+    "dataprimoutilizzo": {
+      "type": "date",
+      "required": true
+    },
+    "datascadenzautilizzo": {
+      "type": "date",
+      "required": true
+    },
+    "dataemissione": {
+      "type": "date",
+      "required": true
+    },
+    "datascadenza": {
+      "type": "date",
+      "required": true
+    },
+    "cliente_id": {
+      "type": "number",
+      "required": true
+    },
+    "websurfer_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
